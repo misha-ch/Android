@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">My First Android Projekt</string>
+    <string name="app_name">My First Android Project</string>
+    <string name="toggleButton">Кнопка переключатель</string>
+    <string name="switchOne">Переключатель</string>
+    <string name="btnOn">Кнопка не нажата</string>
+    <string name="btnOff">Кнопка нажата</string>
+    <string name="button">Кнопка</string>
+    <string name="infoHint">напиши сюда что-нибудь!</string>
+    <string name="text">Привет Мир!!!!!!!!!!</string>
+    <string name="text1">Просто текст</string>
+    <string name="tel">введите номер телефона</string>
+    <string name="text2">введите текст</string>
+    <string name="num">введите цифры</string>
+    <string name="pass">введите пароль</string>
+    <string name="email">введите Email</string>
 </resources>

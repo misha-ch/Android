@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="UseSwitchCompatOrMaterialXml">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:ems="8"
+        android:text="@string/text"
+        android:textColor="#8B008B"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:autofillHints="no"
+        android:background="#2F4F4F"
+        android:ems="15"
+        android:hint="@string/infoHint"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFDEAD" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/button"
+        android:textColor="#00FFFF"
+        android:textSize="33sp" />
+
+    <Switch
+        android:id="@+id/switchOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/switchOne"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/purple_700"
+        android:checked="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#d54"
+        android:checked="false"
+        android:shadowColor="@color/teal_700"
+        android:text="@string/toggleButton"
+        android:textColor="#fff"
+        android:textOff="@string/btnOn"
+        android:textOn="@string/btnOff" />
+
+</LinearLayout>
