@@ -6,23 +6,30 @@
     android:orientation="vertical"
     tools:ignore="UseSwitchCompatOrMaterialXml">
 
+    <Button
+        android:id="@+id/switchLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="switchLayout2"
+        android:text="@string/btn_d" />
+
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="@dimen/in_dp50"
         android:ems="8"
         android:text="@string/text"
         android:textColor="#8B008B"
-        android:textSize="34sp" />
+        android:textSize="@dimen/in_sp34" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="@dimen/in_dp50"
         android:autofillHints="no"
         android:background="#2F4F4F"
         android:ems="15"
@@ -35,27 +42,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="@dimen/in_dp20"
         android:text="@string/button"
         android:textColor="#00FFFF"
-        android:textSize="33sp" />
+        android:textSize="@dimen/in_sp34" />
 
     <Switch
         android:id="@+id/switchOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/in_dp20"
         android:text="@string/switchOne"
         android:textColor="#FF0000"
-        android:textSize="20sp" />
+        android:textSize="@dimen/in_sp20" />
 
     <CheckBox
         android:id="@+id/checkBoxOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/in_dp20"
         android:backgroundTint="@color/purple_700"
         android:checked="true" />
 
@@ -64,7 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="@dimen/in_dp20"
         android:background="#d54"
         android:checked="false"
         android:shadowColor="@color/teal_700"

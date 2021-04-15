@@ -13,4 +13,5 @@
     <string name="num">введите цифры</string>
     <string name="pass">введите пароль</string>
     <string name="email">введите Email</string>
+    <string name="btn_d">переключение между экранами</string>
 </resources>

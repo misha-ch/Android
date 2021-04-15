@@ -16,4 +16,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void switchLayout(View view) {
+        setContentView(R.layout.dz1);
+    }
+    public void switchLayout1(View view) {
+        setContentView(R.layout.activity_main);
+    }
+    public void switchLayout2(View view) {
+        setContentView(R.layout.dz);
+    }
 }
